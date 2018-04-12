@@ -1,0 +1,4 @@
+app-with-selenium:
+  build:
+    image: codeship/app-with-selenium
+    dockerfile: Dockerfile

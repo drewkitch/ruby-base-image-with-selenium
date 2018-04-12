@@ -1,0 +1,3 @@
+- name: check connection to selenium
+  service: app-with-selenium
+  command: curl --fail http://localhost:${SELENIUM_PORT}/wd/hub/status
